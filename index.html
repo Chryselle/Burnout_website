@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burnout Motors - GT3 Racing Team</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <!--<img src="Full Burnout logo (1).png" alt="Burnout Motors Logo" class="logo-image">-->
+                    <img src="logo_b.png" alt="Burnout Motors Logo" class="logo-image">
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="join.html">Join the Team</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <!-- Video Background - Option 1: Self-hosted video (recommended) -->
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="videos/gt3-racing.mp4" type="video/mp4">
+            <source src="videos/gt3-racing.webm" type="video/webm">
+            <!-- Fallback image if video doesn't load -->
+            Your browser does not support the video tag.
+        </video>
+        
+        <!-- Video Background - Option 2: YouTube Embed (uncomment to use) -->
+        <!-- 
+        <div class="hero-youtube-video">
+            <iframe 
+                src="https://www.youtube.com/embed/YOUR_VIDEO_ID?autoplay=1&mute=1&loop=1&playlist=YOUR_VIDEO_ID&controls=0&showinfo=0&rel=0&modestbranding=1&playsinline=1"
+                frameborder="0" 
+                allow="autoplay; encrypted-media" 
+                allowfullscreen>
+            </iframe>
+        </div>
+        -->
+        
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">BURNOUT MOTORS</h1>
+            <p class="hero-subtitle">Engineering Excellence. Racing Passion.</p>
+            <!--<p class="hero-description">Building from the ground up THE BMW E46 for GT3 racing in Norway</p>-->
+            <p class="hero-description">A full ground-up BMW E46 build tailored for GT3 racing in Norway.</p>
+            <a href="about.html" class="btn btn-primary">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">What We Do</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🔧</div>
+                    <h3>Custom Builds</h3>
+                    <p>We specialize in building and customizing BMW cars with V8 engines with a custom ECU and performance tuned electronics, pushing the boundaries of performance and engineering.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏁</div>
+                    <h3>GT3 Racing</h3>
+                    <p>Competing in GT3 racing series across Norway, showcasing our engineering prowess on the track.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎓</div>
+                    <h3>Student Team</h3>
+                    <p>A student-driven initiative combining academic knowledge with real-world racing experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work with Us Section -->
+    <section class="work-with-us">
+        <div class="container">
+            <h2 class="section-title">Work with Us</h2>
+            <div class="carousel-container">
+                <div class="carousel-wrapper">
+                    <div class="carousel-track">
+                        <div class="carousel-slide">
+                            <div class="carousel-image" style="background-image: url('slideshow/IMG_1144.png')"></div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="carousel-image" style="background-image: url('slideshow/IMG_20240903_172422.jpg')"></div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="carousel-image" style="background-image: url('slideshow/IMG_9541.png')"></div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="carousel-image" style="background-image: url('slideshow/pic.jpg')"></div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="carousel-image" style="background-image: url('slideshow/int.jpg')"></div>
+                        </div>
+                        
+                        <!-- Duplicate slides for infinite loop -->
+                        <div class="carousel-slide">
+                            <div class="carousel-image" style="background-image: url('slideshow/IMG_1144.png')"></div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="carousel-image" style="background-image: url('slideshow/IMG_20240903_172422.jpg')"></div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="carousel-image" style="background-image: url('slideshow/IMG_9541.png')"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Join the Team?</h2>
+            <p>Be part of Norway's premier university racing team</p>
+            <a href="join.html" class="btn btn-secondary">Join Us</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>BURNOUT MOTORS</h3>
+                    <p>Engineering the future of GT3 racing</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <!--<li><a href="team.html">Meet the Team</a></li>-->
+                        <li><a href="join.html">Join the Team</a></li>
+                        <!--<li><a href="sponsors.html">Sponsors</a></li>-->
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: rokasn@burnoutmoptors.no</p>
+                    <p>Kristine Bonnevies hus · Blindernveien 31, 0371 Oslo, Norway</p>
+                    <p>instagram: <a href="https://www.instagram.com/burnoutmotorsno/?hl=en" target="_blank" rel="noopener noreferrer">@burnoutmotorsno</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Burnout Motors. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
